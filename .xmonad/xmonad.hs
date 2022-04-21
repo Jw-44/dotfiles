@@ -325,6 +325,7 @@ main = do
         } `additionalKeysP`
         [ ("M-w", spawn "librewolf")
             ,("<Print>",spawn "screenshot")
+            ,("S-<Print>",spawn "screenshotselect")
             ,("M-c", spawn "rofi -show calc -modi calc -no-show-match -no-sort -config .config/rofi/calc.rasi")
           -- ,("M-<Return>", sendMessage ToggleStruts)
           -- ,("M-S-l", sendMessage $ Toggle NOBORDERS)
