@@ -1,7 +1,0 @@
-#! /bin/sh
-# Simple script that uses maim to take a screenshot
-output=$HOME/Documents/ss/"$(date +%s_%h%d_%H:%M:%S).png"
-
-maim $output
-
-notify-send "Maim" "Screenshot Taken"
