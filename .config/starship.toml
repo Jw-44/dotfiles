@@ -1,0 +1,14 @@
+# ~/.config/starship.toml
+line_break=false
+
+format = " $all"
+[character]
+#success_symbol = "[ ❱](bold green)"
+#success_symbol = "[ ✘](bold green)"
+success_symbol = "[ ➜ ](bold green)"
+error_symbol = "[ ➜ ](bold green)"
+
+# [time]
+# disabled = false
+# format = '[ ](yellow)[$time ](bold italic fg:#8be9fd)' 
+# time_format = "%r"

@@ -5,6 +5,8 @@ Documents/
 Downloads/
 DevOps/
 Extras/
+OpenSource
+Blogs
 Study/
 Synopsis/
 Pictures/
@@ -52,6 +54,13 @@ java_error_in_idea_955.log
 .config/vlc/
 .config/xfce4/
 .config/yay/
+.config/Thunar/
+.config/gh/
+.config/libfm/
+.config/ncspot/
+.config/polybar-themes/
+.config/polybar.old/
+.config/polybarBkp2/
 .dbshell
 .fehbg
 .gitconfig
@@ -86,6 +95,7 @@ java_error_in_idea_955.log
 .viminfo
 .vim/
 .wakatime/
+.wget-hsts
 .Xauthority
 .xmonad/xmonad.hi
 .xmonad/xmonad.o

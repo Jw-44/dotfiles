@@ -1,0 +1,12 @@
+#! /bin/sh
+
+echo "Enter the directory path to show its content :"
+read dir
+
+if [ -d $dir ]
+then
+    echo "List of files in the directory - $dir"
+    ls -l $dir # | egrep '^d'
+else
+    echo "Wrong directory path"
+fi

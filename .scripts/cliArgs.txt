@@ -1,0 +1,17 @@
+#! /bin/sh
+
+if [ $# -gt 0 ]
+then
+    echo "List of Arguments provided to the script : "
+    for arg in $*
+    do
+        if [ $arg != "stop" ] && [ $arg != "Stop" ] && [ $arg != "STOP" ]
+        then
+            echo $arg
+        else
+            break
+        fi
+    done
+else
+    echo "No Argument provided to the script."
+fi
