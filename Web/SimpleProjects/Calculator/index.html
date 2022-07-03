@@ -7,9 +7,9 @@
   <title>Calculator</title>
 </head>
 <body>
-  <main class="flex flex-col min-h-screen bg-veryDarkBlue items-center justify-center gap-8 relative overflow-hidden">
+  <main class="flex flex-col min-h-screen bg-veryDarkBlue items-center justify-center gap-12 relative overflow-hidden">
     <h1 class="z-20 text-7xl text-white text-center font-semibold">Calculator</h1>
-    <section id="calculator" class="z-10 p-4 bg-darkBlue rounded-xl flex flex-col gap-4 backdrop-blur-3xl 
+    <section id="calculator" class="relative z-10 p-4 bg-darkBlue rounded-xl flex flex-col gap-4 backdrop-blur-3xl 
       border-[1px] items-center justify-center">
       <div id="display" class="overflow-hidden relative bg-blue h-[120px] w-80 my-2 p-2 gap-4 rounded-lg flex flex-col items-end justify-end">
         <div id="previous-view" class="text-3xl text-slate-500 font-semibold absolute top-4"></div>
@@ -42,6 +42,7 @@
     <span class="absolute -translate-y-[400px] translate-x-28 h-[300px] w-[300px] rounded-full bg-gradient-to-r from-red-400 to-pink-500"></span>
     <span class="absolute translate-y-[450px] -translate-x-28 h-[300px] w-[300px] rounded-full bg-gradient-to-r from-green-400 to-cyan-500"></span>
     <span class="absolute -translate-y-[100px] -translate-x-[1000px] h-[600px] w-[600px] rounded-full bg-gradient-to-r from-cyan-400 to-indigo-500"></span>
+    <p class="absolute bottom-4 z-30 text-lg text-indigo-100 mt-8">Made by <a class="underline text-slate-700" href="https://github.com/zelfroster">Sumit Kumar Soni</a></p>
   </main>
   <script src="./script.js"></script>
 </body>
